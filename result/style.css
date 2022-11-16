@@ -1,0 +1,28 @@
+body{
+  background-color: white;
+}
+.container-fluid{
+  margin-bottom: 25px;
+}
+hr{
+  margin-top: 100px;
+  border: 1px solid grey;
+}
+/* nav bar */
+.navbar-brand{
+  margin-top: 10px;
+}
+.navbar-nav{
+  margin-top: 10px;
+}
+
+.nav-link{
+  margin:0 20px;
+}
+
+.res-head{
+  font-weight: bolder;
+  font-size:3rem;
+  color: #001D6E;
+  text-align: center;
+}

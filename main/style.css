@@ -1,0 +1,61 @@
+body{
+  background-color: white;
+}
+.container-fluid{
+  margin-bottom: 25px;
+}
+hr{
+  margin-top: 100px;
+  border: 1px solid grey;
+}
+/* nav bar */
+.navbar-brand{
+  margin-top: 10px;
+}
+.navbar-nav{
+  margin-top: 10px;
+}
+
+.nav-link{
+  margin:0 20px;
+}
+/*carousel*/
+.carousel-item {
+  max-height: 600px;
+}
+/*space division*/
+.gap-div{
+  height: 50px;
+}
+
+/*personal info*/
+.person-head{
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size:2.5rem;
+  color: #001D6E;
+  text-align: center;
+}
+/* card */
+.card{
+  margin-top: 50px;
+  width:600px;
+  position: relative;
+  left:390px;
+}
+/* table */
+.key{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.value{
+  font-weight:500;
+  font-size: 1.2rem;
+}
+/* footer */
+#footer{
+  color: #576F72;
+  padding-top:20px;
+  text-align: center;
+  height:75px;
+}
