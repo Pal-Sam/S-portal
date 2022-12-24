@@ -1,34 +1,67 @@
 body{
-  background-color: white;
+  
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+p{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color:#091353;
 }
 .container-fluid{
   margin-bottom: 25px;
+ background-color:white;
 }
-hr{
-  margin-top: 50px;
-  border: 1px solid grey;
-}
+
 /* nav bar */
 .navbar-brand{
   margin-top: 10px;
 }
 .navbar-nav{
   margin-top: 10px;
+ 
 }
 
 .nav-link{
   margin:0 20px;
 }
-/*fee info*/
 
-.fee-head{
 
-  font-weight: bolder;
-  font-size:3rem;
-  color: #001D6E;
-  text-align: center;
+/* card */
+.card-header{
+font-size: 2rem;
+  font-weight: 900;
+  color: #091353;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border: #DBDBDB;
 }
-.dd-space{
-  margin: 25px auto;
-  color: #001D6E;
-}
+ 
+ .card-footer{
+
+  font-size: 1rem;
+  font-weight: 700;
+  color:#091353;
+  border: #DBDBDB;
+ }
+ button{
+  width:70%;
+  height: 30px;
+  position: relative;
+  top:25px;
+  border: #091353;
+ }
+ .card{
+ 
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+ }
+ .card-body{
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+ }

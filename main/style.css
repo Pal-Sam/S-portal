@@ -1,5 +1,11 @@
 body{
   background-color: white;
+  margin: 0;
+  padding: 0;
+  background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .container-fluid{
   margin-bottom: 25px;
@@ -32,16 +38,21 @@ hr{
 .person-head{
   font-family: 'Montserrat';
   font-weight: 600;
-  font-size:2.5rem;
-  color: #001D6E;
+  font-size:2rem;
+  color: #0E185F;
   text-align: center;
 }
 /* card */
 .card{
-  margin-top: 50px;
-  width:600px;
+  margin: 45px 0 90px 0;
+  width:500px;
   position: relative;
-  left:390px;
+  left:380px;
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-radius: 1cm;  
+
 }
 /* table */
 .key{
@@ -54,8 +65,9 @@ hr{
 }
 /* footer */
 #footer{
-  color: #576F72;
-  padding-top:20px;
+  color:white;
+ background-color: #0E185F;
   text-align: center;
-  height:75px;
+  height: 125px;
+  padding-top: 10px;
 }

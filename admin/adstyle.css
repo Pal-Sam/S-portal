@@ -1,0 +1,74 @@
+body{
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+.container-fluid{
+  margin-bottom: 25px;
+  background-color: white;
+}
+
+/* nav bar */
+.navbar-brand{
+  margin-top: 10px;
+}
+.navbar-nav{
+  margin-top: 10px;
+}
+
+.nav-link{
+  margin:0 20px;
+}
+
+
+h2{text-align: center;
+  font-weight: bold;
+  color: #001D6E;
+  margin-bottom: 25px;
+}
+
+.con1{
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #001D6E;
+  margin:50px auto 30px auto;
+  width:50%;
+  border-color: darkgray;
+  padding: 25px;
+}
+.con2{
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #001D6E;
+  margin:50px auto 30px auto;
+  width:50%;
+  padding: 25px;
+}
+.con3{
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #001D6E;
+  margin:50px auto 30px auto;
+  width:50%;
+  padding: 25px;
+}
+label{
+  font-style: italic;
+  font-weight: bold;
+  font-size: large;
+}
+#subb{
+  margin-top: 50px;
+  width:40%;
+  position: relative;
+  left:30%;
+  background-color: #001D6E;
+}
+input{
+  margin-left: 10px;
+  border: #ADA996;
+}
