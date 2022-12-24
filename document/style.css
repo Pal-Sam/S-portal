@@ -1,11 +1,15 @@
 body{
-  background-color: white;
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 .container-fluid{
   margin-bottom: 25px;
+  background-color: white;
 }
 hr{
-  margin-top: 100px;
+  margin-top: 50px;
   border: 1px solid grey;
 }
 /* nav bar */
@@ -25,4 +29,60 @@ hr{
   font-size:3rem;
   color: #001D6E;
   text-align: center;
+}
+h2{text-align: center;
+  font-weight: bold;
+  color: #001D6E;
+}
+
+.card{
+  height:200px;
+  width: 300px;
+  margin: 20px auto 5px auto;
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 1cm;
+  border: 0;
+}
+
+#submit{
+  background-color: #001D6E;
+  border: 0cm;
+  width: 200px;
+  color: antiquewhite;
+  font-size: 1.5rem;
+  position: relative;
+  left:40%;
+  border-radius: 1cm;
+}
+
+.tab{
+
+  width:60%;
+  position: relative;
+  left:20%;
+}
+.download{
+  width:20%;
+}
+.view{
+  width:20%;
+}
+
+.container-md{
+  padding: 30px;
+}
+.table{
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 1cm;
+  font-size: large;
+}
+a{color: #001D6E;
+  
+}
+.card-title{
+  color: #001D6E;
 }
